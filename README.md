@@ -85,5 +85,8 @@
       Fn: 1
       loc: [26×4 double]
       locR: [5×4 double]
-    
+
+![Alt text](/images/RandFracU.jpg?raw=true "Selection Box")
+![Alt text](/images/RandFracR.jpg?raw=true "Output rotated fractures")
+
     
