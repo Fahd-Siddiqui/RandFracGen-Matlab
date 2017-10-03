@@ -83,9 +83,14 @@ plot= 1 show plots
 
 >Dom.Frac(1)
 
-  RandGenFracture with properties:
+    RandGenFracture with properties:
+  
       Ne: 5
+      
       Fn: 1
-     loc: [26×4 double]
-    locR: [5×4 double]
+      
+      loc: [26×4 double]
+     
+      locR: [5×4 double]
+    
     
