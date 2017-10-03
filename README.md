@@ -56,7 +56,7 @@ plot= 1 show plots
 *Result*
 >locationR
 
->[
+[
 4.85914722539209	0.000221163463716518	4.87095373938303	0.00338470935301598	1
 4.87095373938303	0.00338470935301598	4.88276025337397	0.00654825524231509	1
 4.88276025337397	0.00654825524231509	4.89456676736491	0.00971180113161420	1
@@ -69,14 +69,20 @@ plot= 1 show plots
 
 >Dom
 
->  RandGenDomain with properties:
->     loc: []
+  RandGenDomain with properties:
+
+    loc: []
+    
     locR: [28571×4 double]
-      Fn: [28571×1 double]
+    
+    Fn: [28571×1 double]
+    
     Frac: [7164×1 RandGenFracture]
-      Nf: 7164
+    
+    Nf: 7164
 
 >Dom.Frac(1)
+
   RandGenFracture with properties:
       Ne: 5
       Fn: 1
