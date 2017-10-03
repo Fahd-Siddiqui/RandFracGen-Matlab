@@ -40,7 +40,7 @@ Dom           : Class object containing fracture class and elements in each frac
 
 **CALLING EXAMPLE**
 
->[locationR, Dom]=RandFracGen(500,5,5,pi/12,5,0);
+For
 
 N=500
 
@@ -51,6 +51,8 @@ theta=pi/12 radians  or 15 degrees counterclockwise
 tun = 5 (medium sized fractures, no bias)
 
 plot= 1 show plots
+
+>[locationR, Dom]=RandFracGen(500,5,5,pi/12,5,0);
 
 
 *Result*
@@ -79,13 +81,9 @@ plot= 1 show plots
 >Dom.Frac(1)
 
     RandGenFracture with properties:
-  
       Ne: 5
-      
       Fn: 1
-      
       loc: [26×4 double]
-     
       locR: [5×4 double]
     
     
