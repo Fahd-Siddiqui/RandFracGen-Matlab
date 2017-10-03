@@ -1,56 +1,56 @@
 # RandFracGen-Matlab
 
-Generates randomly distributed oriented fractures
+ Generates randomly distributed oriented fractures
 
 
 **INPUT**
 
-Mx    (Integer) : X size of final domain 
+ Mx    (Integer) : X size of final domain 
 
-My    (Integer) : Y size of final domain
+ My    (Integer) : Y size of final domain
 
-theta (Radian)  : Angle of rotation +ve values only
+ theta (Radian)  : Angle of rotation +ve values only
 
-N     (Integer) : Size of unrotated Domain. Controls orthogonal spacing between fractures
+ N     (Integer) : Size of unrotated Domain. Controls orthogonal spacing between fractures
 
-tun   (Integer) : Size of fracture, 2 for small fractures, 9 for large fractures. Controls spacing between fracture tips
+ tun   (Integer) : Size of fracture, 2 for small fractures, 9 for large fractures. Controls spacing between fracture tips
 
-plot  (0 or 1)  : Visualization, 1 for plotting, 0 for no plots (plots increase time)
+ plot  (0 or 1)  : Visualization, 1 for plotting, 0 for no plots (plots increase time)
 
 
 **ESSENTIAL STEPS**
 
-Generates random fractures in the domain of the size NxN
+ Generates random fractures in the domain of the size NxN
 
-Rotates the domain and fractures by theta
+ Rotates the domain and fractures by theta
 
-Selects the rotated fractures
+ Selects the rotated fractures
 
-Removes fractures of size 0 and size 1
+ Removes fractures of size 0 and size 1
 
-Rescales the problem to Mx by My size
+ Rescales the problem to Mx by My size
 
 
 **OUTPUT**
 
-LocationR     : Fracture location matrix with the syntax [X_Beg Y_Beg X_End Y_End Fractre_Number]
+ LocationR     : Fracture location matrix with the syntax [X_Beg Y_Beg X_End Y_End Fractre_Number]
 
-Dom           : Class object containing fracture class and elements in each fracture. 
+ Dom           : Class object containing fracture class and elements in each fracture. 
 
 
 **CALLING EXAMPLE**
 
-For
+ For
 
-N=500
+ N=500
 
-Mx=My=5
+ Mx=My=5
 
-theta=pi/12 radians  or 15 degrees counterclockwise
+ theta=pi/12 radians  or 15 degrees counterclockwise
 
-tun = 5 (medium sized fractures, no bias)
+ tun = 5 (medium sized fractures, no bias)
 
-plot= 1 show plots
+ plot= 1 show plots
 
 >[locationR, Dom]=RandFracGen(500,5,5,pi/12,5,0);
 
