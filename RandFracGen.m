@@ -40,7 +40,7 @@ function [locationR, Dom]=RandFracGen(N, Mx, My, theta, tun, plot)
 %
 % CALLING EXAMPLE
 %  [locationR, Dom]=RandFracGen(200,5,5,pi/12,5,0);
-
+close all
 %% Random Generation -------------------------------------------------------- %
 Tiles=true(N+2*tun,N+2*tun,1);
 tic
