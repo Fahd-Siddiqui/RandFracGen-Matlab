@@ -40,7 +40,7 @@
 
 **CALLING EXAMPLE**
 
- For
+ Consider generating large number of medium sized and low spacing fractures, in a 5x5 sized square, rotated by 15 degrees.
 
  N=500
 
@@ -56,6 +56,10 @@
 
 
 *Result*
+Gives about 7164 fractures with a total of 28571 elements in the domain. 
+
+The beginning and ending coordinates of all fracture alongwith their fracture number (name) are given as *locationR* matrix.
+
 >locationR
 
     [
@@ -68,6 +72,8 @@
     4.78198104966785	0.00485291610980208	4.79378756365879	0.00801646199910119	2
     ...
     ]
+
+Each fracture can then be referenced through the *Dom* object.
 
 >Dom
 
