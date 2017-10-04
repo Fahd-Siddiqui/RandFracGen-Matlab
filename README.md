@@ -15,7 +15,7 @@
 
  tun   (Integer) : Size of fracture, 2 for small fractures, 9 for large fractures. Controls spacing between fracture tips
 
- plot  (0 or 1)  : Visualization, 1 for plotting, 0 for no plots (plots increase time)
+ plot  (0 or 1)  : Visualization, 1 for plotting, 0 for no plots (plotting increase computation time)
 
 
 **ESSENTIAL STEPS**
