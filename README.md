@@ -33,7 +33,7 @@
 
 **OUTPUT**
 
- *LocationR*     : Fracture location matrix with the syntax >[X_Beg Y_Beg X_End Y_End Fractre_Number]
+ *LocationR*     : Fracture location matrix with the syntax [X_Beg Y_Beg X_End Y_End Fractre_Number]
 
  *Dom*           : Class object containing fracture class and elements in each fracture. 
 
