@@ -59,7 +59,7 @@
 
 Gives about 7164 fractures with a total of 28571 elements in the domain. 
 
-The beginning and ending coordinates of all fracture alongwith their fracture number (name) are given as *locationR* matrix.
+The *locationR* matrix gives the beginning and ending coordinates of all fracture elements and the fracture number to which each element is assigned.
 
 >locationR
 
