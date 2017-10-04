@@ -75,16 +75,17 @@
       loc: []
       locR: [28571×4 double]
       Fn: [28571×1 double]
-      Frac: [7164×1 RandGenFracture]
       Nf: 7164
+      Frac: [7164×1 RandGenFracture]
+      
 
 >Dom.Frac(1)
 
     RandGenFracture with properties:
-      Ne: 5
-      Fn: 1
       loc: [26×4 double]
       locR: [5×4 double]
+      Fn: 1
+      Ne: 5
 
 ![Alt text](/images/RandFracU.jpg?raw=true "Selection Box")
 ![Alt text](/images/RandFracR.jpg?raw=true "Output rotated fractures")
