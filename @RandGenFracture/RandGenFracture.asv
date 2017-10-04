@@ -15,13 +15,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 classdef RandGenFracture < handle
     % RANDGENFRACTURE class to hold fracture elements and other properties
-    
     %% Properties
     properties
+        Ne=0                % Total number of elements in this fracture
+        Fn=0                % Fracture number 
         loc                 % Unroatated location coordinates of the fracture
         locR                % Rotated location coordinates of the fracture
-        Fn=0                % Fracture number 
-        Ne=0                % Total number of elements in this fracture
     end
 end
 

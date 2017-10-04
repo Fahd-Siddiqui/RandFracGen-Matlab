@@ -20,9 +20,10 @@ classdef RandGenDomain < handle
     properties
         loc                     % Unroatated location coordinates of the domain
         locR                    % Roatated location coordinates of the domain
-        Fn                      % Fracture number
         Nf                      % Total number of fractures in the domain
+        Fn
         Frac=RandGenFracture;   % Fracuture objects in the domain
+        
     end
     %% Methods
     methods
